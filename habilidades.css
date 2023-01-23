@@ -1,0 +1,45 @@
+.skills-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 300px 0;
+    gap: 30px;
+    flex-wrap: wrap;
+   
+}
+
+.skills-container{ 
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-bottom: 0 0 250px 0;
+flex-wrap: wrap;
+
+}
+
+.skills-container > div {
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
+    background-color: #484f58;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 7px 10px #b3b3b3;
+    max-width: 170px;
+    min-width: 150px;
+    color: white;
+
+}
+
+.skills-container > div > ul {
+    margin-left: 10px;
+    list-style: circle;  
+}
+
+.skills-container > div > ul > li {
+text-transform: capitalize;
+}
+
+.skills-container > div > h3 {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #2ecc71;
+}

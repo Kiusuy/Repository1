@@ -1,0 +1,32 @@
+.container-text {
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: #000;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #000;
+    margin-top: 10px;
+
+}
+
+.text span{
+    color: #2ecc71;
+}
+
+.text p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 10px;
+
+}
+
+.redes-sociais a{
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 15px;
+    padding: 5px;
+}

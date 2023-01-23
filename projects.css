@@ -1,0 +1,46 @@
+.project-image{
+   width: 100%;
+   
+}
+
+.content-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.project-technologies{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    text-transform: uppercase;
+}
+
+.project-technologies > li{
+    background-color: #2ecc71;
+    padding: 0 5px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.project-info{
+    display: grid;
+    gap: 15px;
+}
+
+.task-description{
+    max-height: 160px;
+    min-height: 160px;
+    overflow-y: auto;
+}
+
+.action-container{
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.project-image-container{
+    align-self: center;
+}
+
