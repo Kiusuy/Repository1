@@ -42,7 +42,7 @@ header{
 
 .cabecalho-link a{
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
 
 }
 
@@ -73,7 +73,7 @@ header{
     padding: 5px;
     border: solid 1px #2ecc71;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 15px;
     width: 150px;
 }
 
@@ -94,7 +94,7 @@ header{
     border: 1px solid #000000;
     padding: 20px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #fff;
     display: grid;
     gap: 10px;
     
@@ -124,5 +124,29 @@ header{
     .title {
         color: #fff;
         padding: 30px ;
-        
+        font-size: 20px;
+    }
+
+    .email-background {
+
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
+    background-color: #484f58;
+    background-position: center;
+    width: 100%;
+    height: 8vh;
+    margin-top: 30px;
+
+    }
+
+    .email {
+            
+            padding: 10px;
+            font-size: 15px;
+            word-spacing: 50px;
+            text-align: center;
+    }
+
+    .email a{
+        text-decoration: none;
+        color: #fff;
     }
